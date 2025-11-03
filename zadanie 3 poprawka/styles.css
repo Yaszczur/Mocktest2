@@ -1,52 +1,19 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background: #fff;
-  color: #111;
-  font-family: Arial, sans-serif;
-}
-
-.page-header {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.page-header h1 {
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.gallery-wrap {
-  display: flex;
-  justify-content: center;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1cm;
-  max-width: 1000px;
-  margin: 20px auto;
-}
-
-.gallery a {
-  display: inline-block;
-  border: 3px solid #222;
-  padding: 4px;
-  background: #fff;
-  box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  justify-content: center;
 }
 
 .gallery img {
-  display: block;
   width: 200px;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
-  object-position: center;
+  border: 2px solid black;
 }
